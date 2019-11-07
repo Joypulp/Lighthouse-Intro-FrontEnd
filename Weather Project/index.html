@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Include the stylesheet -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>What's the Temperature Like?</title>
+</head>
+<body>
+  <header class="title blue">
+    <h1>What's the Temperature Like?</h1>
+  </header>
+  <main>
+    <form id="enter-city">
+      <label for="city">City:</label>
+      <input id="city" type="text" placeholder="Enter City Name" name="search-term" />
+      <button id="submit" type="submit">Search</button>
+    </form>
+    <button id="submitAgain" class="hidden" type="submitAgain">Search Again</button>
+    <div class="results hidden">
+      <p>Can't find that city!</p>
+    </div>
+    <div class="images">
+      <img id="veryHot" class="hidden" src="https://media.giphy.com/media/3o6ozh46EbuWRYAcSY/giphy.gif" alt ="VeryHot">
+      <img id="kindOfHot" class="hidden" src="https://media.giphy.com/media/nYiHd4Mh3w6fS/giphy.gif" alt ="KindOfHot">
+      <img id="regular" class="hidden" src="http://giphygifs.s3.amazonaws.com/media/u01ioCe6G8URG/giphy.gif" alt ="Regular">
+      <img id="kindOfCold" class="hidden" src="https://media.giphy.com/media/cRMhcCorlHeCpQfW1l/giphy.gif" alt ="KindOfCold">
+      <img id="veryCold" class="hidden" src="https://media.giphy.com/media/s4Bi420mMDRBK/giphy.gif" alt ="VeryCold">
+      <img id="notInDatabase" class="hidden" src="https://media.giphy.com/media/xULW8vi25RrpxQrmrm/giphy.gif" alt ="NotInDatabase">
+    </div>
+  </main>
+  <footer>
+    <!-- Add footer content -->
+  </footer>
+  <script type="text/javascript" src="./jquery.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

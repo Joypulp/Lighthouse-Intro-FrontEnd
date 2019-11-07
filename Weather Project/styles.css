@@ -1,0 +1,29 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.border {
+  outline: 3px dotted red;
+}
+
+.title {
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
